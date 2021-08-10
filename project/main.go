@@ -22,7 +22,7 @@ func main() {
 }
 
 func hello(c echo.Context) error {
-	return c.HTML(200, "<h1>Hello world</h1><p>Coba Deploy CICD</p>")
+	return c.HTML(200, "<h1>Coba Deploy CICD</h1>")
 }
 
 func helloName(c echo.Context) error {
