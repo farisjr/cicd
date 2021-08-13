@@ -17,7 +17,7 @@ type User struct {
 	Name string
 }
 
-//
+////
 func main() {
 	connectionString := os.Getenv("CONNECTION_STRING")
 	var err error
